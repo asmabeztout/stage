@@ -1,0 +1,33 @@
+body{
+	background-color: #ffcc00;
+}
+.choix{
+	padding: 80px;
+	font-size: 5em;
+	font-weight: bold;
+	
+}
+.logo-container {
+  width: 100px;
+}
+
+.logo-container img {
+  width: 100%;
+
+}
+
+.c{ padding-left: 100px;}
+.c button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	width: 50%;
+	
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left :100px: ;
+}
+ .c button:hover{
+   color: red;
+}

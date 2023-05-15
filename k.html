@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" type="text/css" href="k.css"><title>Formulaire de demande de formation</title>
+  <script>
+    function validateForm() {
+      var nom = document.getElementById("nom").value;
+      var prenom = document.getElementById("prenom").value;
+      var duree = document.getElementById("duree").value;
+
+      if (nom === "" || prenom === "" || duree === "") {
+        alert("Veuillez remplir tous les champs");
+        return false;
+      }
+    }
+ 
+</head>
+ </script>
+<body>
+    <section>
+ <h1>Formulaire de demande de formation</h1>
+   
+    <div class="image-container">
+  <form method="POST" action="traitement.php" onsubmit="return validateForm()">
+     <label>Nom</label>
+           <input type="text" name="nom">
+           <label > Prenom</label>
+           <input type="text" name="prenom">
+            <label >Date De Naissance</label>
+           <input type="text" name="datedenaissance">
+           <label > Formation</label>
+           <input type="text" name="formation">
+           <label > Ville</label>
+           <input type="text" name="ville">
+          
+           <label>Adresse Mail</label>
+           <input type="text" name="email">
+           <label >Mots de Passe</label>
+           <input type="text" name="mdp">
+
+  <input type="submit"value="Envoyer" > </a>
+      
+    
+    
+  
+   </section> 
+
+  </form>
+ </div>
+</body>
+</html>
+
+
+
